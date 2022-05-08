@@ -2,8 +2,6 @@
 
 ## Gradle
 
-![Uploading image.png…]()
-
 **Groovy**를 이용한 빌드 자동화 시스템
 
 - 안드로이드 앱을 만드는데 필요한 빌드 시스템
@@ -11,8 +9,6 @@
 - 다양한 언어지원
 
 - 오픈소스로 공개된 빌드 도구
-
-  [Groovy](https://www.notion.so/Groovy-d2170ecbbce34c8e905882485fb8a47f)
 
 ### 빌드란?
 
