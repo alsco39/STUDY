@@ -2,6 +2,8 @@
 
 ## Gradle
 
+![Uploading image.png…]()
+
 **Groovy**를 이용한 빌드 자동화 시스템
 
 - 안드로이드 앱을 만드는데 필요한 빌드 시스템
