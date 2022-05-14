@@ -87,3 +87,4 @@ HTTP 프로토콜로 들어오는 모든 요청을 가장 먼저 받아 적합�
 - jar로 묶어서 배포하면 경로나 파일 위치 상관없이 프로그램의 실행 가능
 
 ### 스프링 부트 구조
+![spring_boot2](https://user-images.githubusercontent.com/103401813/168424645-cbb4e384-ab35-4216-8dc2-c62ccc22f463.png)
