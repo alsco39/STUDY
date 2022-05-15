@@ -1,5 +1,7 @@
 # HTTP
 
+![images_sujeong_post_855e158c-3d42-4c4f-99b2-7819a6c77d14_image](https://user-images.githubusercontent.com/103401813/168468110-64bac3a9-2148-4d3f-a412-212fd91adaa0.png)
+
 서버와 클라이언트가 텍스트 기반의 통신 규약으로 인터넷에서 데이터를 주고받을 수 있는 프로토콜
 
 - 규약이 정해져 있어 프로그램이 규약에 맞춰 서로 정보 교환 가능
