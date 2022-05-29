@@ -1,6 +1,6 @@
 # HTTPS
 
-![03-3.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7c3f686a-80ab-40a1-88e7-ed54740869a8/03-3.png)
+![03-3](https://user-images.githubusercontent.com/103401813/170866250-2bcb8121-560b-4696-a172-d500a481ed98.png)
 
 **인터넷 주소를 암호화해 전송하는 보안접속 방식**
 
@@ -21,7 +21,7 @@
 
 - 공개키 암호화 방식을 사용한다.
 
-  ![crypto_asymmetric_key_01.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cf2e6313-fb06-41a8-8b7a-0434a7e37a66/crypto_asymmetric_key_01.jpg)
+![crypto_asymmetric_key_01](https://user-images.githubusercontent.com/103401813/170866267-8834112a-19fc-4fd4-bfd0-4e2d629b482f.jpg)
 
 공개키 암호화 방식 : 암호화, 복호화를 시킬 수 있는 서로 다른 키 2개가 존재한다. 이 두 개의 키는 서로 1번 키로 암호화하면 반드시 2번 키로만 복화화를 시킬 수 있고 2번 키로 암호화 하면 반드시 1번키로만 복호화가 가능하다는 규칙이 있다.
 
