@@ -3,8 +3,8 @@
 **Annotation(어노테이션)**
 
 - **자바에서 코드 사이에 주석처럼 쓰이며 특별한 의미, 기능을 수행하도록 하는 기술**
-
-  ![화면 캡처 2022-05-31 081645.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2d806963-ab3a-46d7-a60e-87f5d0e63fa8/%ED%99%94%EB%A9%B4_%EC%BA%A1%EC%B2%98_2022-05-31_081645.png)
+- 
+![화면 캡처 2022-05-31 081645](https://user-images.githubusercontent.com/103401813/171181645-a802a9b9-4c99-464e-9218-7d5ef6ea7f81.png)
 
   - 컴파일러에게 코드 작성 문법 에러를 체크하도록 정보를 제공
   - 소프트웨어 개발 툴이 빌드나 배치시 코드를 자동으로 생성할 수 있도록 정보를 제공
@@ -15,12 +15,12 @@
 - **@SpringBootApplication**
 
   @Configuration + @EnableAutoConfiguration + @ComponentScan 으로 주로 메인 클래스 위에서 사용된다.
-
   
+![화면 캡처 2022-05-30 210430](https://user-images.githubusercontent.com/103401813/171181711-de6a0398-bb12-4114-8670-56517341e4ea.png)
 
 - **@ResponseStatus**
 
-  
+  ![화면 캡처 2022-05-31 085502](https://user-images.githubusercontent.com/103401813/171181772-e38eeb16-ad54-4b97-b9d3-a97dad80d100.png)
 
   Spring MVC에서 HTTP 응답의 상태 코드를 설정할 때 사용한다.
 
