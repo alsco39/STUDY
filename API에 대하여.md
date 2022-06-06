@@ -54,7 +54,7 @@ API란 애플리케이션 프로그래밍 인터페이스로 컴퓨터나 컴퓨
 
 = 사용자가 기기를 쉽게 동작시키는데 도움을 주는 시스템을 의미
 
-https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8ea958ef-3985-40d2-93c5-66179d400ad7/img.png
+https://s3.us-west-2.amazonaws.com/secure.notion-static.com/8ea958ef-3985-40d2-93c5-66179d400ad7/img.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220606%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220606T135814Z&X-Amz-Expires=86400&X-Amz-Signature=beeaaa0c0c64e3a2ebbe2249b2ab2f80108911c83d01d83cd29beb8536ad91ef&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22img.png%22&x-id=GetObject
 
 ### API 작동 원리
 
