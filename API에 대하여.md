@@ -54,7 +54,7 @@ API란 애플리케이션 프로그래밍 인터페이스로 컴퓨터나 컴퓨
 
 = 사용자가 기기를 쉽게 동작시키는데 도움을 주는 시스템을 의미
 
-![img.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8ea958ef-3985-40d2-93c5-66179d400ad7/img.png)
+https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8ea958ef-3985-40d2-93c5-66179d400ad7/img.png
 
 ### API 작동 원리
 
