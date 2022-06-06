@@ -4,7 +4,7 @@ JSON Web Token으로 인증에 필요한 정보들을 암호화시킨 토큰
 
 ------
 
-![70232647-3c2cda00-17a0-11ea-8448-c6b2b143356f.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5a49163d-eebd-4595-80d5-aee4e8b0866c/70232647-3c2cda00-17a0-11ea-8448-c6b2b143356f.png)
+![image](https://user-images.githubusercontent.com/103401813/171411704-03a8c97d-261b-49bf-98b5-fa46868ad5b7.png)
 
 ## JWT 기반 인증
 
@@ -20,13 +20,13 @@ JWT 토큰(Access Token)을 HTTP 헤더에 실어 서버가 클라이언트를 �
 
 - 서버에서 클라이언트로 받은 토큰을 서버에서 제공한 토큰과의 일치여부를 체크하여 인증과정을 처리하게 된다.
 
-![img.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c4fd2ee2-6868-4075-9e24-672fd008ef71/img.png)
+![img](https://user-images.githubusercontent.com/103401813/171411936-5ec02ebb-4da9-4e77-b7b3-f054c6d88d69.png)
 
 ------
 
 ## JWT 구조
 
-![img.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/caec6c20-09d0-40f5-855a-0933b6e97bde/img.png)
+![img](https://user-images.githubusercontent.com/103401813/171412002-29d6432f-d6b0-4901-b8df-789527067d43.png)
 
 JWT는 **.(점)**을 구분자로 나누어지는 세 가지 문자열의 조합
 
@@ -86,7 +86,7 @@ JWT는 **.(점)**을 구분자로 나누어지는 세 가지 문자열의 조합
 
 등록된 클레임의 사용은 모두 optional( 선택적 )이다.
 
-![img.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e906aedf-e4d7-4b64-bc17-fb374be0cfde/img.png)
+![img](https://user-images.githubusercontent.com/103401813/171412183-ff852c6f-8f01-489b-aa61-2a7a77df25c7.png)
 
 이에 포함된 클레임 이름
 
@@ -155,12 +155,20 @@ const payload = {
 - 서명은 헤더와 페이로드의 값을 각각 BASE64로 인코딩하고 인코딩한 값을 비밀 키를 이용해 헤더에서 정의한 알고리즘으로 해싱을하고 이 값을 다시 BASE64로 인코딩하여 생성한다.
   - 해싱 : 원본 문자열을 알아볼 수 없는 난해한 문자열로 정의하는 과정
     - 키(Key) 값을 해시 함수(키 값을 값(Value)이 저장되는 주소 값으로 바꾸기 위한 수식)라는 수식에 대입시켜 계산한 후 나온 결과를 주소로 사용하여 바로 값에 접근하게 하는 방법
+→ 헤더의 인코딩 값과 정보의 인코딩 값을 합친 후 비밀키로 해쉬(다양한 길이를 가진 데이터를 고정된 길이를 가진 데이터로 매핑한 값)하여 생성한다.
+![img](https://user-images.githubusercontent.com/103401813/171412849-82ab0db6-035e-47c3-9071-b98cf2c820a4.png)
+시그니처에서 사용하는 알고리즘은 헤더에서 정의한 알고리즘 방식을 활용한다.
+구조는 (헤더+페이로드)와 서버가 갖고 있는 유일한 key값을 합친 것을 헤더에서 정의한 알고리즘으로 암호화 한다.
+![img](https://user-images.githubusercontent.com/103401813/171413057-81c6b8b6-f8ff-4001-9ba8-e627357e300a.png)
+
+Signature은 서버 측에서 관리하는 비밀키가 유출되지 않는 이상 복호화 할 수 없다.
+→ 토큰의 위변조 여부를 확인하는데 사용한다.
 
 ------
 
 ## JWT 토큰 예시
 
-![images_dnjscksdn98_post_a8a6eafe-f0ac-4d01-a12f-c7366265af54_jwt_example.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/92fcfe60-862b-4fc5-97fc-0a24d1a0db55/images_dnjscksdn98_post_a8a6eafe-f0ac-4d01-a12f-c7366265af54_jwt_example.png)
+![download](https://user-images.githubusercontent.com/103401813/171413505-eb8f42fe-bfbb-452c-9443-6343b2f9e5fb.jpg)
 
 생성된 토큰은 HTTP 통신을 할 때 Authorization이라는 key의 value로 사용된다.
 
@@ -171,3 +179,12 @@ const payload = {
  "Authorization": "Bearer {생성된 토큰 값}",
 }
 ```
+
+## JWT 인코드/디코드 온라인 사이트
+https://jwt.io/
+![Untitled-4-950x767](https://user-images.githubusercontent.com/103401813/171413885-fa66c737-9591-4e90-add1-4074c4f9482c.png)
+
+하단의 텍스트가 파란색으로 Signature Verified라고 뜨면 JWT토큰이 검증되었다는 것이다.
+
+## JWT를 통한 인증 과정
+![img](https://user-images.githubusercontent.com/103401813/171414843-ca21a8a5-9178-4357-9ba1-2202aeb6f2aa.png)
