@@ -54,11 +54,11 @@ API란 애플리케이션 프로그래밍 인터페이스로 컴퓨터나 컴퓨
 
 = 사용자가 기기를 쉽게 동작시키는데 도움을 주는 시스템을 의미
 
-![img.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8ea958ef-3985-40d2-93c5-66179d400ad7/img.png)
+![img](https://user-images.githubusercontent.com/103401813/172175595-ec6a201f-aea9-4fb2-9c3c-8e7c7bc3f880.png)
 
 ### API 작동 원리
 
-![img1.daumcdn.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a0530211-4057-41cd-98c8-95cc3899b4a0/img1.daumcdn.png)
+![img1 daumcdn](https://user-images.githubusercontent.com/103401813/172175682-858912a7-339f-4133-991b-ad6454c3502b.png)
 
 1. 사용자가 원하는 정보를 보기 위해 웹과의 상호작용을 한다.
 2. 상호작용과 동시에 사용자는 서버에 정보를 요청(request)한다.
