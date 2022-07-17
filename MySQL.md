@@ -4,7 +4,7 @@
 
 - 스토리지 엔진 : 서버 엔진이 필요한 데이터를 물리 장치에서 가져오는 역할을 수행
 
-  tkwls
+  images_ggomjae_post_bdf47a05-b5e3-4577-9cea-b36a086da38b_image (1).png
 
 ------
 
