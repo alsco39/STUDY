@@ -4,7 +4,7 @@
 
 - 스토리지 엔진 : 서버 엔진이 필요한 데이터를 물리 장치에서 가져오는 역할을 수행
 
-  images_ggomjae_post_bdf47a05-b5e3-4577-9cea-b36a086da38b_image (1).png
+![images_ggomjae_post_bdf47a05-b5e3-4577-9cea-b36a086da38b_image (1)](https://user-images.githubusercontent.com/103401813/179400754-50b5a2a0-34b2-4d6f-9070-a36c2e837531.png)
 
 ------
 
