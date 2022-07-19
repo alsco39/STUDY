@@ -1,3 +1,4 @@
+### Github
 - 내 소스코드를 저장 ( 버전 관리 )
 - 소스코드 공유
 - 협업 공간
@@ -16,7 +17,7 @@ Git명령어를 외우지 않고 사용이 가능한 GUI깃 클라이언트 프�
 
 fetch : 원격저장소의 내용을 가져오기
 
-![images_danna-lee_post_b11e702a-f5a5-4e67-baee-5b918e10d26a_Slide5.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/757b8aca-954c-4ba2-82b6-8d33958e9174/images_danna-lee_post_b11e702a-f5a5-4e67-baee-5b918e10d26a_Slide5.png)
+![images_danna-lee_post_b11e702a-f5a5-4e67-baee-5b918e10d26a_Slide5 (2)](https://user-images.githubusercontent.com/103401813/179659803-d7942998-02eb-4e4e-9340-db1a43ff2208.png)
 
 추적(tracked) 여부
 
@@ -34,7 +35,7 @@ fetch : 원격저장소의 내용을 가져오기
 
 ## 파일 추적 상태
 
-![images_danna-lee_post_205b4922-a16c-421c-86f5-4764ecef6603_Slide6.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/95d5f886-22c6-4380-99ed-3e8db4897e5a/images_danna-lee_post_205b4922-a16c-421c-86f5-4764ecef6603_Slide6.png)
+![images_danna-lee_post_205b4922-a16c-421c-86f5-4764ecef6603_Slide6](https://user-images.githubusercontent.com/103401813/179659847-61685d37-1a57-42ca-8c0d-e131a048434f.png)
 
 추적되는 파일
 
@@ -58,7 +59,7 @@ git은 버전관리 시스템이다.
 
 ### commit
 
-![images_danna-lee_post_453dab30-2c89-423a-b395-9ab2e807e6bc_Slide7.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f2190378-fe17-4a51-8eb0-e4cd624f2d47/images_danna-lee_post_453dab30-2c89-423a-b395-9ab2e807e6bc_Slide7.png)
+![images_danna-lee_post_453dab30-2c89-423a-b395-9ab2e807e6bc_Slide7](https://user-images.githubusercontent.com/103401813/179659877-1610c36a-d56e-4765-a214-ec1164861bad.png)
 
 깃크라겐
 
@@ -97,7 +98,7 @@ Staged Files를 commit하기 위해 하단에 커밋 메시지를 적고 Commit 
 
 ## add 더 자세히 알아보기
 
-![images_danna-lee_post_1db05ceb-aafc-4bea-898e-92482adabedf_Slide8.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7825e850-1ac6-4464-bc66-28c2ef8f55fc/images_danna-lee_post_1db05ceb-aafc-4bea-898e-92482adabedf_Slide8.png)
+![images_danna-lee_post_1db05ceb-aafc-4bea-898e-92482adabedf_Slide8](https://user-images.githubusercontent.com/103401813/179659921-ddcabaff-ca99-4b4c-9976-c3b44f30398a.png)
 
 깃크라겐에서 add는
 
@@ -111,7 +112,7 @@ Staged Files를 commit하기 위해 하단에 커밋 메시지를 적고 Commit 
 
 ## 작업 내용 없애기
 
-![images_danna-lee_post_e0b21b11-cced-4bf5-9ec9-0f8f62b3d321_제목을-입력해주세요..png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1ba6e2fb-2b4d-41f7-930f-b1e5f1d9fbcd/images_danna-lee_post_e0b21b11-cced-4bf5-9ec9-0f8f62b3d321_%E1%84%8C%E1%85%A6%E1%84%86%E1%85%A9%E1%86%A8%E1%84%8B%E1%85%B3%E1%86%AF-%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%85%E1%85%A7%E1%86%A8%E1%84%92%E1%85%A2%E1%84%8C%E1%85%AE%E1%84%89%E1%85%A6%E1%84%8B%E1%85%AD..png)
+![images_danna-lee_post_e0b21b11-cced-4bf5-9ec9-0f8f62b3d321_제목을-입력해주세요](https://user-images.githubusercontent.com/103401813/179659948-c1e6a5a1-7a30-4546-b2c7-563d293ed575.png)
 
 마지막  커밋으로 가는 방법은 우측 패널에 휴지통 아이콘을 누르면 된다.
 
@@ -140,7 +141,7 @@ pull = fetch(가져오기) + merge(병합하기)
 
 협업 시 브렌치를 관리해야 한다.
 
-![images_danna-lee_post_9248f0f3-d0c7-4217-a80d-1bce90697c8d_Slide10.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ae4506c9-d2c3-4a42-8b81-fa922389c6fb/images_danna-lee_post_9248f0f3-d0c7-4217-a80d-1bce90697c8d_Slide10.png)
+![images_danna-lee_post_9248f0f3-d0c7-4217-a80d-1bce90697c8d_Slide10](https://user-images.githubusercontent.com/103401813/179660477-a901ae1f-705d-4d3e-8b7c-a3721df55f8b.png)
 
 브렌치는 소프트웨어를 하나 개발할 시 여러 사람이 함께 개발을 시작할 때 작업 폴더 하나에서 동시에 작업을 한다면 다양한 문제가 발생한다.
 
@@ -156,4 +157,4 @@ pull = fetch(가져오기) + merge(병합하기)
 
 ## 브랜치 만드는 법
 
-![images_danna-lee_post_19dc74f3-030a-4085-b179-9a3b48ec17cd_Slide11.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/38c184d0-5b64-4e9d-9f98-e31d7b68feee/images_danna-lee_post_19dc74f3-030a-4085-b179-9a3b48ec17cd_Slide11.png)
+![images_danna-lee_post_19dc74f3-030a-4085-b179-9a3b48ec17cd_Slide11](https://user-images.githubusercontent.com/103401813/179660518-a6dbbaad-21c5-4c1f-9567-ab29fd3148ce.png)
