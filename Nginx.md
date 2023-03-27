@@ -1,4 +1,5 @@
 <H1>Nginx</H1>
+![다운로드](https://user-images.githubusercontent.com/103401813/227974307-dd44a101-e204-4045-b7da-a407ebd67de2.png)
 
 
 
