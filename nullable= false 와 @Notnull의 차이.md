@@ -11,8 +11,6 @@ DDL에 생성 시 Not null 설정이 적용되어 테이블이 생성된다.
 - 유효성 검사에서 오류가 발생하지 않는다.
 - null을 넣은 엔티티를 생성이 된 뒤 레포지토리에 전달 된 값이 DB에 넘어간 뒤에 예외가 발생 해 위험한 오류를 맞을 수 있다.
 
-![img1.daumcdn.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/56f22022-a6c6-465e-8aac-a429f45b7511/img1.daumcdn.jpg)
-
 ## @Notnull
 
 DDL에서 Not null설정이 적용되어 테이블이 생성된다.
