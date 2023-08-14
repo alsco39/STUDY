@@ -1,4 +1,4 @@
-# nullable= false 와 @Notnull의 차이
+# nullable= false 와 @NotNull의 차이
 
 ------
 
@@ -11,7 +11,7 @@ DDL에 생성 시 Not null 설정이 적용되어 테이블이 생성된다.
 - 유효성 검사에서 오류가 발생하지 않는다.
 - null을 넣은 엔티티를 생성이 된 뒤 레포지토리에 전달 된 값이 DB에 넘어간 뒤에 예외가 발생 해 위험한 오류를 맞을 수 있다.
 
-## @Notnull
+## @NotNull
 
 DDL에서 Not null설정이 적용되어 테이블이 생성된다.
 
