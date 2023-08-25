@@ -1,7 +1,5 @@
 # nullable= false 와 @NotNull의 차이
 
-------
-
 ## nullable = false
 
 DDL에 생성 시 Not null 설정이 적용되어 테이블이 생성된다.
