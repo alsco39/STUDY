@@ -61,7 +61,7 @@ public class Client {
 }
 ```
 
-실행결과
+[ 실행결과 ]
 
 Brush my teeth
 
